@@ -2,7 +2,9 @@
 
 ## Objective
 
-This exercise demonstrates association rule mining using transaction data from a bakery ("The Bread Basket") in Edinburgh. The goal is to uncover frequent itemsets and discover meaningful associations or patterns in customer purchase behavior, helping inform promotional strategies or product placement.
+This exercise demonstrates association rule mining using transaction data. The goal is to uncover frequent itemsets and discover meaningful associations or patterns in customer purchase behavior, helping inform promotional strategies or product placement.
+
+**Dataset:** The dataset contains transactional records collected from "The Bread Basket" bakery over multiple days. Each transaction lists items purchased together at different times of day and days of the week, capturing typical customer buying patterns. This real-world transactional dataset provides a practical basis for mining frequent itemsets and generating association rules.
 
 ## Skills Demonstrated
 
