@@ -2,7 +2,9 @@
 
 ## Objective
 
-This project applies k-means clustering to transaction and profile data from Gilt customers to segment the user base for targeted marketing. The aim is to recommend an optimal number of segments and propose differentiated promotional offers, helping maximize the impact of a holiday $-off discount campaign by aligning offer depth with customer value.
+This project applies k-means clustering to transaction and profile data from Gilt (an online shopping platform) customers to segment the user base for targeted marketing. The aim is to recommend an optimal number of segments and propose differentiated promotional offers, helping maximize the impact of a holiday $-off discount campaign by aligning offer depth with customer value.
+
+**Dataset:** The dataset contains transactional records from Gilt customers, including information such as user IDs, product categories, purchase times, and spending amounts.
 
 ## Skills Demonstrated
 
