@@ -2,7 +2,22 @@
 
 ## Objective
 
-This exercise applies unsupervised learning techniques—specifically k-means and hierarchical clustering—to weekly stock return and trading features from five major entertainment/media companies (NFLX, DIS, WBD, FOX, PARAA) for the year 2022. The goal is to segment weeks with similar behavior, uncover patterns, and identify periods of unusual activity or outliers in real financial time-series data.
+This exercise applies unsupervised learning techniques, specifically k-means and hierarchical clustering, to weekly stock returns and trading features from five major entertainment/media companies (NFLX, DIS, WBD, FOX, PARAA) for the year 2022. The goal is to segment weeks with similar behavior, uncover patterns, and identify periods of unusual activity or outliers in real financial time-series data.
+
+## Skills Demonstrated
+
+- Feature extraction and engineering from raw time-series stock data
+- Standardization and preprocessing for clustering
+- Application and interpretation of both k-means and hierarchical clustering
+- Outlier/anomaly detection in unsupervised settings
+- Visualization and business interpretation of cluster results
+
+## Tools Used
+
+- **Programming:** Python (pandas, numpy, yfinance)
+- **Clustering Methods:** scikit-learn (KMeans, AgglomerativeClustering)
+- **Visualization:** matplotlib, seaborn, scipy (dendrograms)
+- **Notebook Environment:** Jupyter/Colab
 
 ## Summary of Work
 
@@ -31,21 +46,6 @@ This exercise applies unsupervised learning techniques—specifically k-means an
   Distinct clusters reflected persistent differences in weekly behavior across companies: higher-cap stocks tended to populate clusters with lower volatility and steadier trading, while smaller or more news-driven stocks appeared more frequently in outlier or volatile clusters.
 - **Anomaly and Event Detection:**  
   The analysis successfully highlighted weeks with highly unusual returns or volumes, providing a data-driven pathway for event detection and understanding temporal dynamics in financial data.
-
-## Skills Demonstrated
-
-- Feature extraction and engineering from raw time-series stock data
-- Standardization and preprocessing for clustering
-- Application and interpretation of both k-means and hierarchical clustering
-- Outlier/anomaly detection in unsupervised settings
-- Visualization and business interpretation of cluster results
-
-## Tools Used
-
-- **Programming:** Python (pandas, numpy, yfinance)
-- **Clustering Methods:** scikit-learn (KMeans, AgglomerativeClustering)
-- **Visualization:** matplotlib, seaborn, scipy (dendrograms)
-- **Notebook Environment:** Jupyter/Colab
 
 ## Course Context
 
