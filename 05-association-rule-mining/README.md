@@ -35,4 +35,4 @@ These insights can guide cross-promotional marketing, product placement, or bund
 
 ## Course Context
 
-Completed as part of the Boston University MSBA program:Unsupervised Machine Learning Course (BA820)
+Completed as part of the Boston University MSBA program: Unsupervised Machine Learning Course (BA820)
