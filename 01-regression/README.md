@@ -23,4 +23,4 @@ This exercise introduces classic supervised machine learning for regression usin
 - **Notebook Environment:** Jupyter/Colab Notebook
 
 ## Course Context
-*Completed as part of the Boston University MSBA program — Supervised ML/Regression module (BA810).*
+Completed as part of the Boston University MSBA program: Supervised ML Course (BA810)
