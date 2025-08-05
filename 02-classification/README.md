@@ -4,6 +4,8 @@
 
 This exercise involves building and selecting classification models to predict credit card default using a real-world dataset from Taiwan’s credit card clients. The aim is to learn how to preprocess data, handle categorical and numeric variables, build pipelines, tune models via parameter search, and optimize for balanced accuracy and cost-sensitive metrics.
 
+**Dataset:** The dataset [Default of Credit Card Clients](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients) contains information on 30,000 customers from a major bank in Taiwan, with 23 explanatory variables and a binary default payment target. It covers demographic factors (age, gender, education, marital status), credit information (credit limit), six months of payment history, bill amounts, and payment amounts from April to September 2005. The task is to predict whether a customer will default on payment the following month (1 = default, 0 = no default).
+
 ## Skills Demonstrated
 
 - Data preprocessing with mixed variable types  
