@@ -1,4 +1,4 @@
-# 01-regression
+# Regression Analysis (OLS)
 
 ## Objective
 This exercise introduces classic supervised machine learning for regression using the Auto dataset (automobile specifications and fuel economy). The main goal is to practice exploratory data analysis, data preprocessing for regression, and implementation of linear regression models to predict a car’s miles per gallon (mpg) from various features.
@@ -10,6 +10,9 @@ This exercise introduces classic supervised machine learning for regression usin
   Checked each variable for suitability (numeric vs. categorical), handled missing values, and explained feature selection rationale for regression. Categorical variables (e.g., number of cylinders, car origin) were noted for encoding if used in modeling.
 - **Regression Modeling:**  
   Discussed the potential relationships between predictor variables and mpg and considered which ones would make meaningful regressors for outcome prediction.
+
+## Key Findings
+The analysis identified strong negative correlations between fuel efficiency (mpg) and features such as vehicle weight (-0.83) and engine displacement (-0.81), while model year showed a moderate positive correlation (0.58), reflecting improvements in fuel economy over time. Textual variables like 'name' were rightly excluded from modeling, and categorical variables such as 'cylinders' and 'origin' were designated for encoding. Handling missing values (especially in 'horsepower') was necessary for clean modeling. These insights informed a robust variable selection strategy aimed at building an interpretable and predictive regression model.
 
 ## Skills Demonstrated
 - Exploratory data analysis and summary statistics
@@ -23,4 +26,4 @@ This exercise introduces classic supervised machine learning for regression usin
 - **Notebook Environment:** Jupyter/Colab Notebook
 
 ## Course Context
-Completed as part of the Boston University MSBA program: Supervised ML Course (BA810)
+Completed as part of the Boston University MSBA program: Supervised Machine Learning Course (BA810)
