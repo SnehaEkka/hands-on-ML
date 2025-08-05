@@ -33,4 +33,4 @@ The Random Forest classifier achieved a balanced accuracy of approximately 53%, 
 
 ## Course Context
 
-Completed as part of the Boston University MSBA program: Supervised Machine Learning/Classification module (BA810).
+Completed as part of the Boston University MSBA program: Supervised Machine Learning Course (BA810).
