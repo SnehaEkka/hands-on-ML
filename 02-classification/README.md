@@ -4,19 +4,6 @@
 
 This exercise involves building and selecting classification models to predict credit card default using a real-world dataset from Taiwan’s credit card clients. The aim is to learn how to preprocess data, handle categorical and numeric variables, build pipelines, tune models via parameter search, and optimize for balanced accuracy and cost-sensitive metrics.
 
-## Summary of Work
-
-- Loaded and explored the `default_of_credit_card_clients` dataset, focusing on key predictor features (`LIMIT_BAL`, `SEX`, `EDUCATION`, `MARRIAGE`, and `AGE`) and the classification target (`default payment next month`).
-- Identified categorical features, performed data transformations including scaling numeric variables and one-hot encoding categoricals within a pipeline.
-- Implemented a `RandomForestClassifier` to model default risk.
-- Conducted hyperparameter tuning over maximum tree depth and minimum samples per leaf using three different search strategies.
-- Incorporated cost-sensitive learning by assigning a higher penalty to missing defaults (false negatives) and found the model minimizing the expected cost.
-- Evaluated model performance using balanced accuracy and compared against a dummy majority-class baseline.
-
-## Key Results & Conclusion
-
-The Random Forest classifier achieved a balanced accuracy of approximately 53%, outperforming the majority-class baseline of 50.9%. Hyperparameter tuning for `max_depth` and `min_samples_leaf` improved model performance, while cost-sensitive learning effectively reduced the expected cost of misclassification by prioritizing recall of defaults. The use of a preprocessing pipeline combining scaling and one-hot encoding ensured robust and reproducible model training. Overall, this exercise demonstrated practical application of supervised classification techniques and thoughtful evaluation metrics for a real-world credit default prediction problem.
-
 ## Skills Demonstrated
 
 - Data preprocessing with mixed variable types  
@@ -30,6 +17,19 @@ The Random Forest classifier achieved a balanced accuracy of approximately 53%, 
 
 - Python (pandas, numpy, scikit-learn, matplotlib, seaborn)  
 - Jupyter and Colab Notebooks  
+
+## Summary of Work
+
+- Loaded and explored the `default_of_credit_card_clients` dataset, focusing on key predictor features (`LIMIT_BAL`, `SEX`, `EDUCATION`, `MARRIAGE`, and `AGE`) and the classification target (`default payment next month`).
+- Identified categorical features, performed data transformations including scaling numeric variables and one-hot encoding categoricals within a pipeline.
+- Implemented a `RandomForestClassifier` to model default risk.
+- Conducted hyperparameter tuning over maximum tree depth and minimum samples per leaf using three different search strategies.
+- Incorporated cost-sensitive learning by assigning a higher penalty to missing defaults (false negatives) and found the model minimizing the expected cost.
+- Evaluated model performance using balanced accuracy and compared against a dummy majority-class baseline.
+
+## Key Results & Conclusion
+
+The Random Forest classifier achieved a balanced accuracy of approximately 53%, outperforming the majority-class baseline of 50.9%. Hyperparameter tuning for `max_depth` and `min_samples_leaf` improved model performance, while cost-sensitive learning effectively reduced the expected cost of misclassification by prioritizing recall of defaults. The use of a preprocessing pipeline combining scaling and one-hot encoding ensured robust and reproducible model training. Overall, this exercise demonstrated practical application of supervised classification techniques and thoughtful evaluation metrics for a real-world credit default prediction problem.
 
 ## Course Context
 
